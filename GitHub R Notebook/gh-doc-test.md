@@ -1,6 +1,10 @@
 Test R Code on Github
 ================
 
+-   [GitHub Documents](#github-documents)
+-   [Including Code](#including-code)
+-   [Including Plots](#including-plots)
+
 GitHub Documents
 ----------------
 
