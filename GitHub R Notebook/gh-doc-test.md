@@ -35,4 +35,4 @@ You can also embed plots, for example:
 
 ![](gh-doc-test_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
-This plot was resized from the original using `fig.width=5`, and `fig.height=5` in the `knitr` R chunk. Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This plot was resized by using `fig.width=5`, and `fig.height=5` in the `knitr` R chunk. Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
