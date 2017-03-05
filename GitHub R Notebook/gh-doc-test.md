@@ -48,8 +48,10 @@ RStudio `knitr` claims to be able to render certain simple inline equations, e.g
 and
 
 $$
-R=\\frac{N}{X}-Z
+\\frac{N}{X}
 $$
+
+$$\\frac{4z^3}{16}$$
 
 using LaTex markup notation. However, although these equations are correctly rendered in the RStudio .rmd editor, they do not always render correctly either in the local HTML browser or on GitHub.
 
