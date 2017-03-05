@@ -5,6 +5,7 @@ Neil J. Gunther
 -   [GitHub Documents](#github-documents)
 -   [Including Code](#including-code)
 -   [Including Plots](#including-plots)
+-   [Including Math](#including-math)
 
 GitHub Documents
 ----------------
@@ -37,6 +38,15 @@ You can also embed plots, for example:
 
 This plot was resized by using `fig.width=5`, and `fig.height=5` in the `knitr` R chunk. Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-Here is an equation
+Including Math
+--------------
 
-$$R = \\frac{N}{X} - Z$$
+RStudio `knitr` claims to be able to render certain simple inline equations, e.g., *E* = *m**c*<sup>2</sup>, as well as display equations like
+
+*e*<sup>*i**π*</sup> + 1 = 0
+ and
+
+$$
+R = \\frac{N}{X} - Z
+$$
+ using LaTex markup notation. However, they do not seem to render correctly either in the local HTML browser on GitHub.

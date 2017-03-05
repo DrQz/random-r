@@ -33,16 +33,18 @@ plot(pressure)
 This plot was resized by using `fig.width=5`, and `fig.height=5` in the `knitr` R chunk. Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-Here is an equation
+## Including Math
 
+RStudio `knitr` claims to be able to render certain simple inline equations, e.g., $E=mc^2$, as well as display equations like
 
-$$R = \frac{N}{X} - Z$$
+$$
+e^{i \pi} + 1 = 0
+$$
+and
 
-
-
-
-
-
-
+$$
+R = \frac{N}{X} - Z
+$$
+using LaTex markup notation. However, they do not seem to render correctly either in the local HTML browser or on GitHub.
 
 
