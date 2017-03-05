@@ -43,12 +43,14 @@ Including Math
 
 RStudio `knitr` claims to be able to render certain simple inline equations, e.g., *E* = *m**c*<sup>2</sup>, as well as display equations like
 
-*e*<sup>*i**π*</sup> + 1 = 0
+*e*<sup>*i**π*</sup> = −1
 
 and
 
 $$
-R = \\frac{N}{X} - Z
+R=\\frac{N}{X}-Z
 $$
 
 using LaTex markup notation. However, although these equations are correctly rendered in the RStudio .rmd editor, they do not always render correctly either in the local HTML browser or on GitHub.
+
+See also <http://www.statpower.net/Content/310/R%20Stuff/SampleMarkdown.html>
