@@ -40,11 +40,13 @@ RStudio `knitr` claims to be able to render certain simple inline equations, e.g
 $$
 e^{i \pi} + 1 = 0
 $$
+
 and
 
 $$
 R = \frac{N}{X} - Z
 $$
-using LaTex markup notation. However, they do not seem to render correctly either in the local HTML browser or on GitHub.
+
+using LaTex markup notation. However, although these equations are correctly rendered in the RStudio .rmd editor, they do not always render correctly either in the local HTML browser or on GitHub.
 
 
