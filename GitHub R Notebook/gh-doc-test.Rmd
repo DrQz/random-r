@@ -41,16 +41,12 @@ $$
 e^{i \pi} = -1
 $$
 
-and
+using LaTex markup notation. However, although the math is displayed correctly rendered in the RStudio .rmd editor, it is not always displayed consistently on GitHub. For example, this is wrong
+
 
 $$
 R(N) = \frac{N}{X(N)} - Z
 $$
 
-using LaTex markup notation. However, although these equations are correctly rendered in the RStudio .rmd editor, they are not always displayed consistently on GitHub.
-
-See also http://www.statpower.net/Content/310/R%20Stuff/SampleMarkdown.html
-
-
-
+but fractions should be rendered correctly. See  http://www.statpower.net/Content/310/R%20Stuff/SampleMarkdown.html
 
