@@ -44,13 +44,10 @@ $$
 and
 
 $$
-\frac{N}{X}
+R(N) = \frac{N}{X(N)} - Z
 $$
 
-$$\frac{4z^3}{16}$$
-
-
-using LaTex markup notation. However, although these equations are correctly rendered in the RStudio .rmd editor, they do not always render correctly either in the local HTML browser or on GitHub.
+using LaTex markup notation. However, although these equations are correctly rendered in the RStudio .rmd editor, they are not always displayed consistently on GitHub.
 
 See also http://www.statpower.net/Content/310/R%20Stuff/SampleMarkdown.html
 
