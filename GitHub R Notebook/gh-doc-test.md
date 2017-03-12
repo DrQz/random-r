@@ -3,6 +3,9 @@ Test R Code on Github
 Neil J. Gunther
 
 -   [GitHub Documents](#github-documents)
+    -   [Subsection A](#subsection-a)
+    -   [Subsection B](#subsection-b)
+    -   [Subsection C](#subsection-c)
 -   [Including Code](#including-code)
 -   [Including Plots](#including-plots)
 -   [Including Math](#including-math)
@@ -11,6 +14,12 @@ GitHub Documents
 ----------------
 
 This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+### Subsection A
+
+### Subsection B
+
+### Subsection C
 
 Including Code
 --------------
