@@ -4,8 +4,8 @@
 # 2. Autoscaled region: M/M/1/N/N with S = 1/lambda_max for N < 500
 # Advantages:
 #  - Faster computation than FESC model
-#  - Doesn't use probabilities like FESC
-#  - Hence, no underflow NaN precision problems
+#  - Doesn't compute probabilities like FESC
+#  - No underflow NaN problems
 # Created by NJG on Sat Dec  9 07:17:13 2017
 
 library(pdq)
