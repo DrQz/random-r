@@ -19,6 +19,7 @@ users  <- seq(100, usrmax, 50)
 nu <- NULL
 tp <- NULL
 rt <- NULL
+pdqx <- TRUE  # generate a PDQ Report or not
 
 for (i in 1:length(users)) {
   
@@ -39,7 +40,7 @@ for (i in 1:length(users)) {
       pdq::Report()
     }
     
-  } else {
+  } else { # above N > nknee
     Arate  <- nknee * arate # total arrivals = m * λ 
     
     pdq::Init("Tomcat M/M/1/N/N Submodel")
