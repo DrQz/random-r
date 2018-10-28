@@ -1,6 +1,6 @@
 # Created by NJG on Tue Oct 23 07:42:37 2018
 # Check 2nd degree polynomial with a,b,c in Excel
-# with missing X(1) data
+# when X(1) data is missing
 
 # N is configured number of memcache worker threads 
 # First, reproduce Excel results using lm()
@@ -15,9 +15,8 @@ df.mc.poly <- read.csv(text=" N,X
 )
 print(df.mc.poly)
 
-# Normalize the data and invert the Efficiency
-df.mc.poly$X.user <- df.mc.poly$X / df.mc.poly$N
-df.mc.poly$Xu.inv <- 1 / df.mc.poly$X.user
+df.mc.poly$X.user   <- df.mc.poly$X / df.mc.poly$N
+df.mc.poly$Xu.inv   <- 1 / df.mc.poly$X.user
 df.mc.poly$N.minus1 <- df.mc.poly$N - 1 # must do this way
 print(df.mc.poly)
 
@@ -46,9 +45,9 @@ curve(G * x / ( 1 + A * (x-1) + B * x * (x-1) ),
       )
 
 # compute USL scaling metrics
-Nmax <- sqrt((1 - A) / B)
-Xmax <- G * Nmax / (1 + A * (Nmax - 1) + B * Nmax * (Nmax - 1))
-Nopt <- abs(1 / A)
+Nmax  <- sqrt((1 - A) / B)
+Xmax  <- G * Nmax / (1 + A * (Nmax - 1) + B * Nmax * (Nmax - 1))
+Nopt  <- abs(1 / A)
 Xroof <- G * Nopt 
 
 abline(v=Nmax,col="gray",lty="dashed")
