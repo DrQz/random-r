@@ -2,7 +2,7 @@
 # No X(1) value required
 # No C(N) normalization required
 # Gamma param (G) = X(1)
-# Then, can computer C(N) and E(N) as for 2-param USL
+# Then compute C(N) and E(N) as for 2-param USL
 # Created by NJG on Sat Nov 17 21:00:04 2018
 
 library(usl)
