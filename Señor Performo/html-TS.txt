@@ -1,0 +1,79 @@
+Thursday, December 06, 2018
+
+"The thing that has that kind of [Poka-yoke] "ownership" on the web is the HTTP server." --njg DM
+
+Example footer TS just before </html>
+http://www.perfdynamics.com/books.html
+
+This example comes from my LaTeX to HTML translator:
+<html>
+....
+<small>File translated from
+T<sub><font size="-1">E</font></sub>X
+by <a href="http://hutchinson.belmont.ma.us/tth/">
+T<sub><font size="-1">T</font></sub>H</a>,
+version 3.81.<br />On  7 Jul 2018, 19:48.</small>
+</html>
+
+W3C time tag is already defined.
+A W3C algorithm would be:
+* open file
+* find </html> line
+* goto 1 line above </html>
+* If  <time datetime="2017-02-14">text</time> close file
+  else insert <time datetime ... </time> tag
+* close file
+
+How would this be implemented in the HTML server?
+Check Apache server devs
+
+Twitter DMs with @SrPerf 
+------------------------
+Señor Performo
+Poka-yoke - Wikipedia https://en.wikipedia.org/wiki/Poka-yoke 
+
+Neil Gunther
+Anyway, I now see ur point about how to "avoid the mistake" of no TS upon publishing
+ ... like automatic must be in Park or Neutral in order to start a car engine
+ 
+ Neil Gunther
+ So, poke yoke really requires *ownership* in order to be able to correct or avoid a mistake.
+ 
+ Neil Gunther
+ The thing that has that kind of "ownership" on the web is the HTTP server. If
+ u, as an author, forgot to insert a TS, the web server from whence u are
+ publishing, would check for that and correct it by inserting a date ... which
+ would automatically be the date of publication. SOLVED !!!!
+ 
+ Neil Gunther
+ In that sense, the modern web server is the like the old-school printing press
+ loaded with the date of publication on its plates.
+ 
+ Neil Gunther
+Yeah, I think it could work and should really have been mandated in the original HTTP server designs.
+ 
+This was my feeling when I wrote the article. It has to be in the source HTML
+... but wasn't sure how, if it wasn't inserted by an HTML editor (for example).
+And quite honestly, that the HTTP server should do it, only came to me after
+thinking how I would apply 'pokemon' to the problem. :)
+
+
+--------------------
+https://www.w3schools.com/tags/att_time_datetime.asp
+
+HTML <time> datetime Attribute
+<p>I have a date on <time datetime="2017-02-14">Valentines day</time>.</p>
+
+
+
+This kind of protocol is governed by W3C
+https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#Specification_maturation
+
+
+I like it, it would act like WordPress inserting it automatically if the user was lazy, only concern would be weird scenarios
+ Report this message sent 1 hour ago from Señor Performo Delete this message sent 1 hour ago from Señor Performo
+ Señor Performo
+ But thinking those can give opportunity to have all the solutions 😎
+ 
+ 
+ 
