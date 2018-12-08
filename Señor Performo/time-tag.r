@@ -18,4 +18,3 @@ linum <- grep("</html>", lines, ignore.case=TRUE)
 lines[linum]     <- ttag()  
 lines[linum + 1] <- "</html>"
 writeLines(lines, "timetag-out.html") # don't overwrite read file
-
