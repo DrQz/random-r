@@ -17,4 +17,5 @@ linum <- grep("</html>", lines, ignore.case=TRUE)
 # Overwrite it with TS and rewrite </html> on next line
 lines[linum]     <- ttag()  
 lines[linum + 1] <- "</html>"
-writeLines(lines, "timetag-out.html") # don't overwrite
+writeLines(lines, "timetag-out.html") # don't overwrite read file
+
