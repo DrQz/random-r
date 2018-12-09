@@ -5,7 +5,7 @@ ttag <- function() {
   ts <- Sys.time()
   tt <- paste("Published on <time datetime=", 
               sprintf("\"%s\"", ts), 
-              ">", ts, "</time>",  
+              ">", ts, "</time>",  # make it visible on web page
               sep="")
   return(tt)
 }
