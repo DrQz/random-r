@@ -1,4 +1,5 @@
-# Created by NJG on 
+# Created by NJG on 4 May 2009 at 15:47
+# Updated by NJG on Tue Feb  5 15:15:35 2019
 # 
 # Blog post: What happens when you add a new teller?  21 October 2008
 # https://www.johndcook.com/blog/2008/10/21/what-happens-when-you-add-a-new-teller/
