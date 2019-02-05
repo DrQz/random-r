@@ -1,0 +1,123 @@
+> source('~/GitHub/random-r/Cook-blog2008.r')
+
+                        PRETTY DAMN QUICK REPORT         
+               ==========================================
+               ***  on   Tue Feb  5 15:11:08 2019     ***
+               ***  for  Single Bank Teller           ***
+               ***  PDQ  Version 7.x.x Build 051116   ***
+               ==========================================
+
+               ==========================================
+               ********    PDQ Model INPUTS      ********
+               ==========================================
+
+WORKLOAD Parameters:
+
+Node Sched Resource   Workload   Class     Demand
+---- ----- --------   --------   -----     ------
+  1  MSQ   teller     deposit    Open      0.1667
+
+Queueing Circuit Totals
+Streams:   1
+Nodes:     1
+
+deposit        5.8000        0.1667
+
+
+               ==========================================
+               ********   PDQ Model OUTPUTS      ********
+               ==========================================
+
+Solution Method: CANON
+
+               ********   SYSTEM Performance     ********
+
+Metric                     Value    Unit
+------                     -----    ----
+Workload: "deposit"
+Number in system         29.0000    Cust
+Mean throughput           5.8000    Cust/Hour
+Response time             5.0000    Hour
+Stretch factor           30.0000
+
+Bounds Analysis:
+Max throughput            6.0000    Cust/Hour
+Min response              0.1667    Hour
+
+
+               ********   RESOURCE Performance   ********
+
+Metric          Resource     Work              Value   Unit
+------          --------     ----              -----   ----
+Capacity        teller       deposit               1   Servers
+Throughput      teller       deposit          5.8000   Cust/Hour
+In service      teller       deposit          0.9667   Cust
+Utilization     teller       deposit         96.6667   Percent
+Queue length    teller       deposit         29.0000   Cust
+Waiting line    teller       deposit         28.0333   Cust
+Waiting time    teller       deposit          4.8333   Hour
+Residence time  teller       deposit          5.0000   Hour
+
+
+W1 = 4.83 hrs or 290.00 mins
+
+                        PRETTY DAMN QUICK REPORT         
+               ==========================================
+               ***  on   Tue Feb  5 15:11:08 2019     ***
+               ***  for  Two Bank Tellers             ***
+               ***  PDQ  Version 7.x.x Build 051116   ***
+               ==========================================
+
+               ==========================================
+               ********    PDQ Model INPUTS      ********
+               ==========================================
+
+WORKLOAD Parameters:
+
+Node Sched Resource   Workload   Class     Demand
+---- ----- --------   --------   -----     ------
+  2  MSQ   teller     deposit    Open      0.1667
+
+Queueing Circuit Totals
+Streams:   1
+Nodes:     1
+
+deposit        5.8000        0.1667
+
+
+               ==========================================
+               ********   PDQ Model OUTPUTS      ********
+               ==========================================
+
+Solution Method: CANON
+
+               ********   SYSTEM Performance     ********
+
+Metric                     Value    Unit
+------                     -----    ----
+Workload: "deposit"
+Number in system          1.2613    Cust
+Mean throughput           5.8000    Cust/Hour
+Response time             0.2175    Hour
+Stretch factor            1.3048
+
+Bounds Analysis:
+Max throughput           12.0000    Cust/Hour
+Min response              0.1667    Hour
+
+
+               ********   RESOURCE Performance   ********
+
+Metric          Resource     Work              Value   Unit
+------          --------     ----              -----   ----
+Capacity        teller       deposit               2   Servers
+Throughput      teller       deposit          5.8000   Cust/Hour
+In service      teller       deposit          0.9667   Cust
+Utilization     teller       deposit         48.3333   Percent
+Queue length    teller       deposit          1.2613   Cust
+Waiting line    teller       deposit          0.2947   Cust
+Waiting time    teller       deposit          0.0508   Hour
+Residence time  teller       deposit          0.2175   Hour
+
+
+W2 = 0.05 hrs or 3.05 mins
