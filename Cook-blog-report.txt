@@ -1,4 +1,3 @@
-> source('~/GitHub/random-r/Cook-blog2008.r')
 
                         PRETTY DAMN QUICK REPORT         
                ==========================================
