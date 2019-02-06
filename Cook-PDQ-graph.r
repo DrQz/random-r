@@ -42,7 +42,7 @@ for(i in 1:length(arrival.rate)) {
 }
 
 plot(x.utiliz, y.wtime1, 
-     main="Constant Traffic Waiting Times", 
+     main="Waiting Times with Single-Teller Traffic", 
      xlab="Server utilization (%)",
      ylab="Waiting time (hrs)",
      type="b", col="blue", cex=0.75
