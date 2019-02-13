@@ -1,0 +1,57 @@
+                        PRETTY DAMN QUICK REPORT         
+               ==========================================
+               ***  on   Wed Feb 13 11:51:28 2019     ***
+               ***  for  Call Congestion              ***
+               ***  PDQ  Version 7.x.x Build 051116   ***
+               ==========================================
+
+               ==========================================
+               ********    PDQ Model INPUTS      ********
+               ==========================================
+
+WORKLOAD Parameters:
+
+Node Sched Resource   Workload   Class     Demand
+---- ----- --------   --------   -----     ------
+  4  MSQ   Agent      Calls      Open      4.0000
+
+Queueing Circuit Totals
+Streams:   1
+Nodes:     1
+
+Calls          0.9500        4.0000
+
+
+               ==========================================
+               ********   PDQ Model OUTPUTS      ********
+               ==========================================
+
+Solution Method: CANON
+
+               ********   SYSTEM Performance     ********
+
+Metric                     Value    Unit
+------                     -----    ----
+Workload: "Calls"
+Number in system         20.7370    Calls
+Mean throughput           0.9500    Calls/Min.
+Response time            21.8284    Min.
+Stretch factor            5.4571
+
+Bounds Analysis:
+Max throughput            1.0000    Calls/Min.
+Min response              4.0000    Min.
+
+
+               ********   RESOURCE Performance   ********
+
+Metric          Resource     Work              Value   Unit
+------          --------     ----              -----   ----
+Capacity        Agent        Calls                 4   Servers
+Throughput      Agent        Calls            0.9500   Calls/Min.
+In service      Agent        Calls            3.8000   Calls
+Utilization     Agent        Calls           95.0000   Percent
+Queue length    Agent        Calls           20.7370   Calls
+Waiting line    Agent        Calls           16.9370   Calls
+Waiting time    Agent        Calls           17.8284   Min.
+Residence time  Agent        Calls           21.8284   Min.

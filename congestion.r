@@ -1,5 +1,5 @@
 # PDQ model of "Congestion charging… in IT?"
-# in Call Center (standard M/M/m queue)
+# in a Call Center (standard M/M/m queue)
 # https://evolvingitsm.com/2013/03/20/congestion-charging-in-it/
 #
 # Created by NJG on Wednesday, February 13, 2019
