@@ -1,4 +1,5 @@
 #  Created by NJG on Sat May  4 15:32:08 PDT 2019
+#  Updated by NJG on Sun May  5 11:48:38 PDT 2019
 # 
 # See the background story in this Twitter thread 
 # https://twitter.com/DrQz/status/1124726941158789120
@@ -45,6 +46,6 @@ df.puzz[2, 3, 0]   # NOTE the row and col IDs
 ### CONCLUSION
 # Any non-zero numeric value after the 2nd comma is treated as drop=TRUE.
 # Who knew a BOOEAN was a DF index!??
-# Ploymorphisms are cool but mixing metphors is a bad idea.
-# At least it fails SAFELY.
+# Polymorphisms are cool but mixing metphors is not.
+# At least df.puzz[2, 3, 4] fails SAFELY.
 
